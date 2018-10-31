@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="cross_para" duration-ms="0" started-at="2018-10-31T10:55:27Z" finished-at="2018-10-31T10:55:27Z">
+    <groups>
+    </groups>
+  </suite> <!-- cross_para -->
+  <suite name="Suite_seq" duration-ms="32345" started-at="2018-10-31T10:54:54Z" finished-at="2018-10-31T10:55:26Z">
+    <groups>
+    </groups>
+    <test name="Test_BookStore-Run1" duration-ms="32345" started-at="2018-10-31T10:54:54Z" finished-at="2018-10-31T10:55:26Z">
+      <class name="com.mop.qa.test.bvt.Test_BookStore">
+        <test-method status="PASS" signature="executeSuite(org.testng.ITestContext)[pri:0, instance:com.mop.qa.test.bvt.Test_BookStore@16267862]" name="executeSuite" is-config="true" duration-ms="257" started-at="2018-10-31T16:24:53Z" finished-at="2018-10-31T16:24:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@210386e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeSuite -->
+        <test-method status="PASS" signature="startTestReport(org.testng.ITestContext)[pri:0, instance:com.mop.qa.test.bvt.Test_BookStore@16267862]" name="startTestReport" is-config="true" duration-ms="3032" started-at="2018-10-31T16:24:54Z" finished-at="2018-10-31T16:24:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@210386e0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestReport -->
+        <test-method status="PASS" signature="bookstoreTest()[pri:0, instance:com.mop.qa.test.bvt.Test_BookStore@16267862]" name="bookstoreTest" duration-ms="24253" started-at="2018-10-31T16:24:57Z" finished-at="2018-10-31T16:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookstoreTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.mop.qa.test.bvt.Test_BookStore@16267862]" name="afterTest" is-config="true" duration-ms="5053" started-at="2018-10-31T16:25:21Z" finished-at="2018-10-31T16:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="finishExecution()[pri:0, instance:com.mop.qa.test.bvt.Test_BookStore@16267862]" name="finishExecution" is-config="true" duration-ms="1379" started-at="2018-10-31T16:25:26Z" finished-at="2018-10-31T16:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishExecution -->
+      </class> <!-- com.mop.qa.test.bvt.Test_BookStore -->
+    </test> <!-- Test_BookStore-Run1 -->
+  </suite> <!-- Suite_seq -->
+</testng-results>

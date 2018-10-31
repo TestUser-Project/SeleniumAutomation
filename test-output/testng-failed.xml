@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite_seq]">
+  <parameter name="Locality" value="Hub"/>
+  <parameter name="appType" value="Web"/>
+  <parameter name="ExecutionType" value="Sequential"/>
+  <parameter name="testname1" value="Test_HDFC"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="testname" value="Test_HDFC-Run1"/>
+  <parameter name="toolName" value="Selenium"/>
+  <test name="Test_HDFC-Run1(failed)">
+    <parameter name="Locality" value="Hub"/>
+    <parameter name="appType" value="Web"/>
+    <parameter name="ExecutionType" value="Sequential"/>
+    <parameter name="testname1" value="Test_HDFC"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="testname" value="Test_HDFC-Run1"/>
+    <parameter name="toolName" value="Selenium"/>
+    <classes>
+      <class name="com.mop.qa.test.bvt.Test_HDFC">
+        <methods>
+          <include name="hdfcTest"/>
+          <include name="executeSuite"/>
+          <include name="afterTest"/>
+          <include name="finishExecution"/>
+          <include name="startTestReport"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.bvt.Test_HDFC -->
+    </classes>
+  </test> <!-- Test_HDFC-Run1(failed) -->
+</suite> <!-- Failed suite [Suite_seq] -->
